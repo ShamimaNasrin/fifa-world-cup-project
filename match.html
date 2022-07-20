@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+
+    <!-- font awesome icon -->
+    <script src="https://kit.fontawesome.com/4fdc3b0f55.js" crossorigin="anonymous"></script>
+    <!-- poppins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lobster&family=Manrope&family=Poppins&family=Roboto&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <title>World Cup Highlights</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .match-item {
+            padding: 30px 17px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 7px;
+            border: 1px solid rgb(188, 188, 188);
+            text-align: center;
+        }
+
+        .match-item h3 {
+            margin-top: 10px;
+        }
+
+        .match-item p {
+            color: rgb(95, 95, 95);
+        }
+
+        .flags {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .flag {
+            width: 38%;
+        }
+
+        .flag img {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="align-center">
+        <div class="header-container">
+            <div class="header-text">
+                <h1 id="header-h1">FIFA World Cup 2022</h1>
+                <p id="header-p">Watch the latest Soccer Highlights and news of the World cup 2022</p>
+                <div class="center-a">
+                    <a href="https://www.youtube.com/watch?v=7ahtjFMGpWM" class="btn" target="_blank">Watch Live <i
+                            class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="header-img align-center">
+                <img src="./assets/Banner Image.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!-- Blog section -->
+    <section class="bolg-section" id="matches">
+        <div class="blog-container">
+            <div class="menu">
+                <div class="menu-container">
+                    <a href="#matches" class="menu-items active">Upcoming Match</a>
+                    <a href="#" class="menu-items inactive">All Group</a>
+                    <a href="index.html" class="menu-items inactive" target="_blank">Blog</a>
+                </div>
+            </div>
+
+            <div class="blogs-grid">
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/germany Flag.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/Flag.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Germany VS France</h3>
+                    <p>April 01, 2023, 1.00 AM</p>
+                </div>
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/germany Flag.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/argentina.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Germany VS Argentina</h3>
+                    <p>April 04, 2023, 1.30 AM</p>
+                </div>
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/argentina.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/Flag.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Argentina VS France</h3>
+                    <p>April 02, 2023, 1.00 AM</p>
+                </div>
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/argentina.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/brazil.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Argentina VS Brazil</h3>
+                    <p>April 03, 2023, 2.00 AM</p>
+                </div>
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/germany Flag.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/brazil.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Germany VS Brazil</h3>
+                    <p>April 06, 2023, 1.00 AM</p>
+                </div>
+                <div class="match-item">
+                    <div class="flags">
+                        <div class="flag">
+                            <img src="./assets/brazil.png" alt="">
+                        </div>
+                        <h3>VS</h3>
+                        <div class="flag">
+                            <img src="./assets/Flag.png" alt="">
+                        </div>
+                    </div>
+                    <h3>Brazil VS France</h3>
+                    <p>April 09, 2023, 3.00 AM</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer>
+        <h2>FIFA 2022</h2>
+        <hr>
+        <div class="footer-link">
+            <a href="" class="footer-a">Contact Us</a>
+            <a href="" class="footer-a">Terms of Service</a>
+            <a href="" class="footer-a">Privacy Policy</a>
+            <a href="" class="footer-a">Privacy Settings</a>
+            <a href="" class="footer-a">Goal App</a>
+            <a href="" class="footer-a">Goal Live</a>
+        </div>
+
+        <div class="social-icon">
+            <a href="https://www.youtube.com/" class="footer-icon" target="_blank"><img
+                    src="./assets/Social-icons/facebook.png" alt=""></a>
+            <a href="https://www.youtube.com/" class="footer-icon" target="_blank"><img
+                    src="./assets/Social-icons/twitter.png" alt=""></a>
+            <a href="https://www.youtube.com/" class="footer-icon" target="_blank"><img
+                    src="./assets/Social-icons/youtube.png" alt=""></a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
